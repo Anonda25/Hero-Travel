@@ -18,11 +18,14 @@ body {
     font-size: 2.5rem;
     color: black;
     text-align: center;
+   line-height: normal;
+   letter-spacing: normal;
   }
 p{
   font-size: 1rem;
   font-weight: 500;
   text-align: center;
+  color: rgb(90, 90, 93);
 }
 .btn-primary{
   background: rgb(255, 84, 0);
@@ -94,4 +97,26 @@ margin:0 1rem ;
 border-radius: 8px;
 border: none;
 cursor: pointer;
+}
+
+/* your destination */
+.your-destinatio{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+
+}
+
+.Our-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
+.Our-container, h3 , p , li{
+  text-align: left;
+  line-height: 34px;
+}
+.mountain img{
+  width: 100%;
 }
