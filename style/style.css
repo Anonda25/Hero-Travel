@@ -3,3 +3,38 @@
 body {
     font-family: "Mulish", sans-serif;
   }
+
+  /* command style  */
+  .container{
+    width: 90%;
+    margin: 2rem auto;
+    
+  }
+  .span{
+    color: rgb(255, 84, 0);
+    font-weight: 600;
+  }
+  h3{
+    font-size: 2.5rem;
+    color: black;
+  }
+
+
+  /* navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo img{
+    height: 34px;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .logo-text{
+    display: flex;
+    gap: 20px;
+  }
