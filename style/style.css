@@ -164,3 +164,76 @@ font-weight: 700;
 .image-section-3{
   grid-template-columns:0.75fr 1fr;
 }
+
+
+/* cord section */
+.card-section h3{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.card-section p{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
+.card-container{
+  background-image: url('../Images/bg-img.png');
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-size: cover;
+  border-radius: 8px;
+ display: flex;
+ justify-content: space-between;
+ padding: 50px ;
+ margin-top: 20px;
+}
+.card-container-2{
+  background-image: url('../Images/bg-img.png');
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-size: cover;
+  border-radius: 8px;
+ 
+ padding: 50px ;
+ margin-top: 20px;
+}
+
+.card-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 6rem;
+  text-align: left;
+}
+
+.filter, .filter-2 {
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  
+  backdrop-filter: blur(1px);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  text-align: left;
+  
+}
+
+
+.filter h3{
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+.filter p{
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.filter Button{
+margin-left: 0px;
+}
